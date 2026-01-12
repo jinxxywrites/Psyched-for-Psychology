@@ -1,0 +1,117 @@
+/* Psyched for Psychology - Custom Stylesheet */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Using a clean serif font for a scholarly feel */
+    font-family: 'Charter', 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fdfdfd;
+    color: #2c3e50;
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px double #333;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #1a3a5f; /* Deep Navy Blue */
+    letter-spacing: -1px;
+}
+
+nav {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1a3a5f;
+}
+
+/* Post list on the Home page */
+.post-list {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.post-list li {
+    margin-bottom: 40px;
+}
+
+.post-list a {
+    font-size: 1.5em;
+    color: #1a3a5f;
+    text-decoration: none;
+    display: block;
+    line-height: 1.2;
+}
+
+.post-list a:hover {
+    color: #3498db;
+}
+
+.post-list .date {
+    display: block;
+    margin-top: 8px;
+    color: #7f8c8d;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/* Individual blog posts */
+article h2 {
+    font-size: 2em;
+    color: #1a3a5f;
+    margin-bottom: 10px;
+}
+
+article .date {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+article p {
+    margin-bottom: 1.5em;
+}
+
+/* Styled blockquotes for psychology citations or AI quotes */
+blockquote {
+    border-left: 4px solid #3498db;
+    margin: 2em 0;
+    padding-left: 1.5em;
+    font-style: italic;
+    color: #555;
+    background-color: #f4f7f9;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #bdc3c7;
+    font-size: 0.8em;
+}
