@@ -85,6 +85,24 @@ article h2 {
     margin-bottom: 10px;
 }
 
+/* Fix for list spacing and bullets */
+article ul {
+    margin-bottom: 1.5em; /* Matches your paragraph spacing */
+    padding-left: 1.5em;   /* Gives room for the bullet points */
+}
+
+article li {
+    margin-bottom: 0.8em; /* Adds a small gap between bullet points */
+}
+
+/* Ensures images within articles have spacing */
+article img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5em 0;
+    border-radius: 4px;
+}
+
 article .date {
     color: #7f8c8d;
     font-style: italic;
